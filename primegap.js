@@ -1,5 +1,5 @@
 var readLineSync = require('readline-sync');
-var positivenum = readLineSync.questionFloat("Enter A Positive Number: ");
+var positivenum = readLineSync.questionFloat("Please Enter A Positive Number: ");
 function isPrime(num) {
   if (num <= 1) return false;
   for (let i = 2; i < num; i++) {

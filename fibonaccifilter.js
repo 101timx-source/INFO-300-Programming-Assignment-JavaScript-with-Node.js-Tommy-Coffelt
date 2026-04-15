@@ -1,7 +1,7 @@
 var readLineSync = require('readline-sync');
-var n = readLineSync.questionInt("Enter a number n (> 0): ");
+var n = readLineSync.questionInt("Please Enter A Number Greater Than 0: ");
 if (n <= 0) {
-    console.log("Please enter a number greater than 0.");
+    console.log("Please Enter a Number Greater Than 0.");
     process.exit();
 }
 var fibonacci = [];

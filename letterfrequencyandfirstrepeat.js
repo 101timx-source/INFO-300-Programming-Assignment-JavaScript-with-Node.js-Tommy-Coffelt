@@ -1,5 +1,5 @@
 var readLineSync = require('readline-sync');
-var input = readLineSync.question("Enter a string: ");
+var input = readLineSync.question("Please Enter A String (Type A Word or Phrase EX: I love INFO SYS): ");
 var str = input.toLowerCase();
 var frequency = {};
 var firstRepeat = null;
@@ -13,7 +13,7 @@ for (var i = 0; i < str.length; i++) {
         }
     }
 }
-console.log("\nLetter Frequency:");
+console.log("\nLetter Frequency In String:");
 console.log("─".repeat(20));
 Object.keys(frequency)
     .sort()
